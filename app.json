@@ -1,12 +1,30 @@
 {
   "pages": [
-    "pages/home/home"
+    "pages/home/home",
+    "pages/category/category"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#FF5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "购物街",
+        "iconPath": "assets/img/tabbar/home.png",
+        "selectedIconPath": "assets/img/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "商品分类",
+        "iconPath": "assets/img/tabbar/category.png",
+        "selectedIconPath": "assets/img/tabbar/category_active.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

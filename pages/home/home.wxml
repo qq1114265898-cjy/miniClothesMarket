@@ -1,2 +1,3 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<w-swiper list="{{banner}}" mode="widthFix"/>
+<w-recommend recommendList="{{recommend}}" />

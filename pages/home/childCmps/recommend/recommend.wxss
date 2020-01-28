@@ -1,0 +1,18 @@
+/* components/recommend/recommend.wxss */
+.wrapper{
+  display: flex;
+  margin-top:40rpx;
+  padding-bottom: 30rpx;
+  border-bottom:16rpx solid rgba(0, 0, 0, .1);
+}
+.content{
+  flex: 1;
+  font-size: 30rpx;
+  text-align: center;
+  color:#555; 
+}
+.content image{
+  margin-bottom:10rpx;
+  width: 160rpx;
+  height: 160rpx;
+}

@@ -1,0 +1,9 @@
+<!--components/recommend/recommend.wxml-->
+<view class="wrapper">
+  <block wx:for="{{recommendList}}" wx:key="index">
+    <view class="content">
+      <image src="{{item.image}}"></image>
+      <view>{{item.title}}</view>
+    </view>
+  </block>
+</view>
